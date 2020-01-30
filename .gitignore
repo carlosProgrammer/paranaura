@@ -39,6 +39,9 @@ MANIFEST
 *.manifest
 *.spec
 
+#PyCharm
+.idea
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -154,3 +157,4 @@ dmypy.json
 # mypy
 
 # Pyre type checker
+.idea/
