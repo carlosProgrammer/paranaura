@@ -36,11 +36,13 @@
     (env)$ python test.py
     ```
        
-1. Run app (different json files ok, file names are hard coded though):
+1. Run app:
 
     ```sh
     (env)$ python app.py
     ```
+   
+   >**TIP** You can use different .json files, however filenames are hard coded. Keep that in mind
 
 ## Interaction with the System via URLS
 
@@ -61,7 +63,7 @@
     http://127.0.0.1:5000/paranaura/api/v1.0/people/<id1>/<id2>
     ```
     
-    e.g.
+    Ex.
     ```
     http://127.0.0.1:5000/hivery/api/v1.0/people/678/520
     ```
@@ -72,7 +74,7 @@
     http://127.0.0.1:5000/hivery/api/v1.0/people/<id>
     ```
     
-    e.g.
+    Ex.
     ```
     http://127.0.0.1:5000/hivery/api/v1.0/people/100
     ```
